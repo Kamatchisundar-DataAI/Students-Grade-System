@@ -1,5 +1,28 @@
 # Students-Grade-System
 A simple level Student Marks Management System using Pandas
+
+#  Students Grade System
+A Python-based data management tool that automates student grading, data persistence, and searching using Pandas.
+
+### Features
+-  Data Persistence : Uses os.path to load existing data from CSV or create a new database.
+-  Automated Grading: Custom function to assign 'A+', 'A', or 'B' based on marks.
+-  Dynamic Entry: Interactive CLI to add new students with real-time validation.
+-  Smart Search: Case-insensitive search to find student records instantly.
+
+### Technology Stack
+-  Python 3.x
+-  Pandas Library (Data Manipulation)
+-  OS Library (File Management)
+
+### File Structure
+- Students_Grade_System.py: The main logic.
+- Stud_data.csv: The persistent database (created automatically).
+
+
+
+
+
 import pandas as pd
 import os
 
