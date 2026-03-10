@@ -71,3 +71,10 @@ if not result.empty:
     print(f"Result: {row['Student']} | {row['Grade']} in {row['Course']}")
 else:
     print("Data not found.")
+
+Outputs:
+<img width="320" height="238" alt="image" src="https://github.com/user-attachments/assets/7398617b-038a-44c1-80d9-482ca16a4ed3" />
+<img width="315" height="279" alt="image" src="https://github.com/user-attachments/assets/ecad4d73-746e-44e0-8994-e17c28e2f05e" />
+
+
+
