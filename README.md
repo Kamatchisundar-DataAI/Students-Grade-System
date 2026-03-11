@@ -95,9 +95,26 @@ if not result.empty:
 else:
     print("Data not found.")
 
-Outputs:
-<img width="320" height="238" alt="image" src="https://github.com/user-attachments/assets/7398617b-038a-44c1-80d9-482ca16a4ed3" />
-<img width="315" height="279" alt="image" src="https://github.com/user-attachments/assets/ecad4d73-746e-44e0-8994-e17c28e2f05e" />
+    
+# 5. PLOTTING SECTION
+
+sns.set_theme(style="whitegrid")
+
+plt.figure(figsize=(8, 5))
+
+ax = sns.barplot(data=df1, x='Student', y='Marks', hue='Grade')
+
+sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
+
+plt.title('Student Marks Comparison', fontsize=15)
+plt.xlabel('Student Name', fontsize=12)
+plt.ylabel('Marks Obtained', fontsize=12)
+
+plt.tight_layout()
+
+plt.show()
+
+
 
 
 
